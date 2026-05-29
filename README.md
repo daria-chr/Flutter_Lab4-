@@ -1,17 +1,33 @@
-# anime_catalog
+# Лабораторная работа №4. Flutter: списки, модели данных и карточки
 
-A new Flutter project.
+# Фамилия, имя, группа, дата сдачи
+Черкина Дарья ИСП-231 19.05.2026
 
-## Getting Started
+## Что изучили
 
-This project is a starting point for a Flutter application.
+- Как создавать модель данных в Dart через класс с `final` полями и `const` конструктором
+- Как строить прокручиваемые списки с помощью `ListView.builder` вместо `Column`
+- Как создавать переиспользуемые виджеты-карточки и разбивать их на отдельные методы
+- Как подключать локальные изображения через `assets` и регистрировать их в `pubspec.yaml`
+- Как работает `InkWell`, `SnackBar` и `AppBar` с параметром `actions`
 
-A few resources to get you started if this is your first Flutter project:
+## Скриншот финального приложения
 
-- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)
-- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)
+![Финальное приложение](img/задание2.png)
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Инструкция по запуску
+
+### Требования
+- Flutter SDK (версия 3.0 или выше)
+- VS Code или Android Studio
+- Эмулятор/симулятор или физическое устройство
+
+### Установка и запуск
+
+ **Клонируйте репозиторий:**
+   ```bash
+    git clone <URL_вашего_репозитория>
+    cd Flutter_Lab4
+    flutter pub get
+    flutter run -d edge
+```

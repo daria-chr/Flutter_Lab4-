@@ -3,7 +3,7 @@ import 'models/anime.dart';
 
 class AnimeCard extends StatelessWidget {
   const AnimeCard({super.key, required this.anime});
-  final Anime anime;
+  final Book anime;
 
   @override
   Widget build(BuildContext context) {
